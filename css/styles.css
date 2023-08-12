@@ -12,3 +12,14 @@
 }
 
 
+/* Stil pentru hover pe contact */
+.contact:hover,
+.contact:hover::before {
+  color: red; /* Schimbă culoarea textului și a bulinei la roșu la hover */
+}
+
+/* Stil pentru pseudo-elementul ::before */
+.contact::before {
+  content: "\2022"; /* Cod pentru caracterul bulinei */
+  margin-right: 8px; /* Spațiu între bulină și text */
+}
